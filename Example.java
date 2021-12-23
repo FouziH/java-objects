@@ -11,9 +11,9 @@ public class Example {
 
 
         GoKart kart = new GoKart();
-        kart.color = "grey";
+        // kart.color = "grey";
         String formatPrint = "This color of the goKart is %s %n";
-        System.out.printf( formatPrint , kart.color);
+        System.out.printf( formatPrint , kart.getGoKart());
     }
 
 }
