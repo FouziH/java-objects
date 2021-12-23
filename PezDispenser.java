@@ -1,5 +1,5 @@
 class PezDispenser {
-   private String characterName;
+   final private String characterName;
    public PezDispenser (String characterName) {
        this.characterName = characterName;
    }
@@ -8,11 +8,6 @@ class PezDispenser {
        return characterName;
    }
 
-   public  String swapHead(String characterName) {
-        String originalCharacterName = this.characterName;
-        this.characterName = characterName;
-
-        return originalCharacterName;
-   }
+  
 
 }
