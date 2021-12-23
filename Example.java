@@ -6,8 +6,8 @@ public class Example {
         // This is where you write your code....
         System.out.println("We are making a new PEX Dispenser");
         PezDispenser dispenser = new PezDispenser();
-        dispenser.characterName ="Darth Vader";
-        System.out.printf("This dispenser is %s %n", dispenser.characterName);
+        // dispenser.characterName ="Darth Vader";
+        System.out.printf("This dispenser is %s %n", dispenser.getCharacterName());
 
 
         GoKart kart = new GoKart();
