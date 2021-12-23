@@ -1,4 +1,4 @@
 public class GoKart {
     
-    private String color = "red";
+ String color = "red";
 }
