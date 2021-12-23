@@ -1,4 +1,9 @@
 public class GoKart {
     
- String color = "red";
+ private String color = "red";
+
+ public String getGoKart() {
+     
+     return color;
+ }
 }
