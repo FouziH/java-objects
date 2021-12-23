@@ -8,6 +8,11 @@ public class Example {
         PezDispenser dispenser = new PezDispenser();
         dispenser.characterName ="Darth Vader";
         System.out.printf("This dispenser is %s %n", dispenser.characterName);
+
+
+        GoKart kart = new GoKart();
+        String formatPrint = "This color of the goKart is %s %n";
+        System.out.printf( formatPrint , kart.color);
     }
 
 }
