@@ -5,7 +5,7 @@ public class Example {
         Console console = System.console();
         // This is where you write your code....
         System.out.println("We are making a new PEX Dispenser");
-        PezDispenser dispenser = new PezDispenser();
+        PezDispenser dispenser = new PezDispenser("Donatello");
         // dispenser.characterName ="Darth Vader";
         System.out.printf("This dispenser is %s %n", dispenser.getCharacterName());
 
