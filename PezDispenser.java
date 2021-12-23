@@ -1,4 +1,4 @@
 class PezDispenser {
-    String characterName = "Yoda";
+   private String characterName = "Yoda";
 
 }
