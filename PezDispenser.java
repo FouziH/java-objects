@@ -8,4 +8,9 @@ class PezDispenser {
        return characterName;
    }
 
+   public  String swapHead(String characterName) {
+        String originalCharacterName = this.characterName;
+        this.characterName = characterName;
+   }
+
 }
