@@ -10,7 +10,7 @@ public class Example {
         System.out.printf("This dispenser is %s %n", dispenser.getCharacterName());
 
 
-        GoKart kart = new GoKart();
+        GoKart kart = new GoKart("red");
         // kart.color = "grey";
         String formatPrint = "This color of the goKart is %s %n";
         System.out.printf( formatPrint , kart.getGoKart());
