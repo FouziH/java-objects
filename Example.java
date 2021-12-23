@@ -4,6 +4,7 @@ public class Example {
     public static void main(String[] args) {
         Console console = System.console();
         // This is where you write your code....
+        System.out.println("We are making a new PEX Dispenser");
     }
 
 }
