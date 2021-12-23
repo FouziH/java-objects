@@ -1,6 +1,6 @@
 public class GoKart {
     
- private String color = "red";
+ private String color;
 
  public GoKart (String color) {
      this.color = color;
