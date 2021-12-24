@@ -1,11 +1,20 @@
 class PezDispenser {
-   private String characterName;
-   public PezDispenser (String characterName) {
-       this.characterName = characterName;
-   }
+    public static final int MAX_PEZ = 12;
+    final private String characterName;
 
-   public String getCharacterName () {
-       return characterName;
-   }
+    private int pezCount;
+
+    public PezDispenser(String characterName) {
+        this.characterName = characterName;
+        pezCount = 0;
+    }
+
+    public void fill() {
+        pezCount = MAX_PEZ;
+    }
+
+    public String getCharacterName() {
+        return characterName;
+    }
 
 }
