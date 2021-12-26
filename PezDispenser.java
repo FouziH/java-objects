@@ -13,6 +13,14 @@ class PezDispenser {
         pezCount = MAX_PEZ;
     }
 
+    public boolean isEmoty() {
+        
+        boolean isActuallyEmpty = pezCount == 0;
+
+        return  isActuallyEmpty;
+    }
+
+
     public String getCharacterName() {
         return characterName;
     }
