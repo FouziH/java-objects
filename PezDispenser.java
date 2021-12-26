@@ -13,8 +13,8 @@ class PezDispenser {
         pezCount = MAX_PEZ;
     }
 
-    public boolean isEmoty() {
-        return   pezCount == 0;
+    public boolean isEmpty() {
+        return pezCount == 0;
     }
 
 

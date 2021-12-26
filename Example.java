@@ -8,8 +8,16 @@ public class Example {
         System.out.printf("Fun Fact: There are %d Pez allowed in every dispenser %n", PezDispenser.MAX_PEZ);
         PezDispenser dispenser = new PezDispenser("Donatello");
 
+        if(dispenser.isEmpty()) {
+            System.out.println("The dispenser is empty");
+        }
+
         System.out.printf("filling dispenser with delicious PEZ....%n");
         dispenser.fill();
+
+        if(!dispenser.isEmpty()) {
+            System.out.println("The dispenser is not empty.");
+        }
         // dispenser.characterName ="Darth Vader";
         System.out.printf("This dispenser is %s %n", dispenser.getCharacterName());
 
