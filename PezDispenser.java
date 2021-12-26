@@ -14,10 +14,7 @@ class PezDispenser {
     }
 
     public boolean isEmoty() {
-        
-        boolean isActuallyEmpty = pezCount == 0;
-
-        return  isActuallyEmpty;
+        return   pezCount == 0;
     }
 
 
