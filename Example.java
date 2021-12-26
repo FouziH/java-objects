@@ -21,7 +21,13 @@ public class Example {
         // dispenser.characterName ="Darth Vader";
         System.out.printf("This dispenser is %s %n", dispenser.getCharacterName());
 
+        while(dispenser.dispense()) {
+            System.out.println("Chomp!");
+        }
 
+        if(dispenser.isEmpty()) {
+            System.out.println("Ate all the penz");
+        }
         // GoKart kart = new GoKart("red");
         // // kart.color = "grey";
         // String formatPrint = "This color of the goKart is %s %n";
